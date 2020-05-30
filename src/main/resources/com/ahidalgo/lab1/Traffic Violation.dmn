@@ -35,6 +35,14 @@
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
+  <dmn:itemDefinition id="_724E44A5-64DE-436D-BBB9-1DD784BF32FA" name="tFine" isCollection="false">
+    <dmn:itemComponent id="_4EB224FE-E4B0-4DA3-B445-BB2E3965DCEC" name="Amount" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_4E6241DC-A0B8-4FEF-9954-3D78AABAD17C" name="Points" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmn:decision id="_22A132D8-D7B5-4B53-8DDB-ACBDB2D1C132" name="Should the driver be suspended?">
     <dmn:extensionElements/>
     <dmn:variable id="_6E517690-1AFE-42D1-A621-E47A5323EBFC" name="Should the driver be suspended?"/>
