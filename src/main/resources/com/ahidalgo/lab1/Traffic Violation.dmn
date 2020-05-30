@@ -25,14 +25,14 @@
     <dmn:itemComponent id="_B46B7898-84DA-4331-9B72-B6911B221138" name="Date" isCollection="false">
       <dmn:typeRef>date</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_2A69E181-D7A9-4CDA-8681-640FC439E9C8" name="Type" isCollection="false">
-      <dmn:typeRef>string</dmn:typeRef>
-    </dmn:itemComponent>
     <dmn:itemComponent id="_2B535FBA-6100-4E9F-84CB-946372AF6B61" name="Speed Limit" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
     <dmn:itemComponent id="_89FA400D-73A6-455E-B04F-6E7AEA694E5F" name="Actual Speed" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_2A69E181-D7A9-4CDA-8681-640FC439E9C8" name="Type" isCollection="true">
+      <dmn:typeRef>tViolation</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_724E44A5-64DE-436D-BBB9-1DD784BF32FA" name="tFine" isCollection="false">
