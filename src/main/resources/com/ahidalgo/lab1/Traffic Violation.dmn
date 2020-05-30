@@ -54,6 +54,19 @@
     <dmn:informationRequirement id="_0F72043E-D794-421C-A7CE-C77FA856F70E">
       <dmn:requiredDecision href="#_5637C7C6-19FE-4E7E-8D68-A7326AF8576D"/>
     </dmn:informationRequirement>
+    <dmn:context id="_72E960F3-8C9D-4B03-98FD-E534396EF302">
+      <dmn:contextEntry>
+        <dmn:variable id="_96D2D8AD-12D6-4C5D-B427-8D5D0A49C7CE" name="Total points" typeRef="number"/>
+        <dmn:literalExpression id="_87B4C9E3-47E0-4C39-BD04-58D37C7A3C6C">
+          <dmn:text>Driver.Points + Fine.Points</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:literalExpression id="_391AC5B8-099E-4A63-A892-2FDB034B4C23">
+          <dmn:text></dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+    </dmn:context>
   </dmn:decision>
   <dmn:inputData id="_1EE1732C-7B40-4773-82C4-0EE4B5DC0596" name="Violation">
     <dmn:extensionElements/>
@@ -73,7 +86,19 @@
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
-        <kie:ComponentsWidthsExtension/>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_72E960F3-8C9D-4B03-98FD-E534396EF302">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_87B4C9E3-47E0-4C39-BD04-58D37C7A3C6C">
+            <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_391AC5B8-099E-4A63-A892-2FDB034B4C23">
+            <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
+        </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-_22A132D8-D7B5-4B53-8DDB-ACBDB2D1C132" dmnElementRef="_22A132D8-D7B5-4B53-8DDB-ACBDB2D1C132" isCollapsed="false">
         <dmndi:DMNStyle>
