@@ -43,11 +43,11 @@
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:decision id="_22A132D8-D7B5-4B53-8DDB-ACBDB2D1C132" name="Should the driver be suspended?">
+  <dmn:decision id="_22A132D8-D7B5-4B53-8DDB-ACBDB2D1C132" name="SShould the driver be suspended?">
     <dmn:extensionElements/>
     <dmn:question>Should the driver be suspended due to points on his driver license?</dmn:question>
     <dmn:allowedAnswers>Yes,No</dmn:allowedAnswers>
-    <dmn:variable id="_6E517690-1AFE-42D1-A621-E47A5323EBFC" name="Should the driver be suspended?" typeRef="string"/>
+    <dmn:variable id="_6E517690-1AFE-42D1-A621-E47A5323EBFC" name="SShould the driver be suspended?" typeRef="string"/>
     <dmn:informationRequirement id="_3CB8D83A-74A1-489B-8FA8-62A31096C912">
       <dmn:requiredInput href="#_412888C4-9876-4019-96BD-9EB8927A790C"/>
     </dmn:informationRequirement>
@@ -56,7 +56,7 @@
     </dmn:informationRequirement>
     <dmn:context id="_72E960F3-8C9D-4B03-98FD-E534396EF302">
       <dmn:contextEntry>
-        <dmn:variable id="_96D2D8AD-12D6-4C5D-B427-8D5D0A49C7CE" name="Total points" typeRef="number"/>
+        <dmn:variable id="_96D2D8AD-12D6-4C5D-B427-8D5D0A49C7CE" name="Total Points" typeRef="number"/>
         <dmn:literalExpression id="_87B4C9E3-47E0-4C39-BD04-58D37C7A3C6C">
           <dmn:text>Driver.Points + Fine.Points</dmn:text>
         </dmn:literalExpression>
