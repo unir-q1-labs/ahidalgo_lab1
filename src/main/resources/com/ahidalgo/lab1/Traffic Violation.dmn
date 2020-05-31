@@ -125,7 +125,7 @@
       </dmn:rule>
       <dmn:rule id="_3079C784-9281-42BC-B6A6-8E0C1FED22B0">
         <dmn:inputEntry id="_DF07C1D5-0783-4C93-A19B-E6876311B2F0">
-          <dmn:text>“parking”</dmn:text>
+          <dmn:text>"parking"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_CD5AF626-C3F9-40D0-9750-9153DABF0390">
           <dmn:text>-</dmn:text>
