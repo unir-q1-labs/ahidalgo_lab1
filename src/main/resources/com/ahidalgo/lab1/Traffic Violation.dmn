@@ -82,6 +82,34 @@
     <dmn:informationRequirement id="_C5663F56-C4FA-4E0D-95E0-D95EC6BB017C">
       <dmn:requiredInput href="#_1EE1732C-7B40-4773-82C4-0EE4B5DC0596"/>
     </dmn:informationRequirement>
+    <dmn:decisionTable id="_0FB59280-A2B1-456B-A15F-DB4624FE5709" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_26BDABF2-B56C-4C3A-BBED-81E6182E58A9">
+        <dmn:inputExpression id="_0EA2E8B4-299F-4484-8288-FF6E362F3A5E" typeRef="string">
+          <dmn:text>Violation.Type</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_E6F9706E-B250-40CE-A969-27BE3B768E76">
+        <dmn:inputExpression id="_D09C64F4-F0A2-4B7D-ADDA-C9EF3C898D67" typeRef="number">
+          <dmn:text>Violation.Actual Speed - Violation.Speed Limit</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_898EB31E-BE8D-4056-A3B4-E1FE79CB46A9" name="Amount" typeRef="number"/>
+      <dmn:output id="_B1591800-5D42-4DF2-A44F-874E89D4E143" name="Points" typeRef="number"/>
+      <dmn:rule id="_912BBD76-40C0-43A5-AB92-1E358DB6A998">
+        <dmn:inputEntry id="_10FBDBB8-38B6-4F99-AF5D-504E7056F5FC">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_7DF1845C-7DFC-4F38-9A7E-92B9106D1D6C">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_5E6D182D-B2ED-405C-8305-C1C9C2A198CF">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_7583F720-7CD6-4BF9-A837-1942CD59B5EC">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
@@ -97,6 +125,14 @@
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_391AC5B8-099E-4A63-A892-2FDB034B4C23">
             <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_0FB59280-A2B1-456B-A15F-DB4624FE5709">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
