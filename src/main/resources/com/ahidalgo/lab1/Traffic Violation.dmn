@@ -31,7 +31,7 @@
     <dmn:itemComponent id="_89FA400D-73A6-455E-B04F-6E7AEA694E5F" name="Actual Speed" isCollection="false">
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
-    <dmn:itemComponent id="_2A69E181-D7A9-4CDA-8681-640FC439E9C8" name="Type" isCollection="true">
+    <dmn:itemComponent id="_2A69E181-D7A9-4CDA-8681-640FC439E9C8" name="Type" isCollection="false">
       <dmn:typeRef>tViolation</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
