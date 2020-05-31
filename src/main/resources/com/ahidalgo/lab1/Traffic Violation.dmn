@@ -139,7 +139,7 @@
       </dmn:rule>
       <dmn:rule id="_F2ACF958-30B7-498C-AEF8-33A996001770">
         <dmn:inputEntry id="_75D0DFE9-4705-4EE7-BF32-2916A75605FC">
-          <dmn:text>“driving under the influence”</dmn:text>
+          <dmn:text>"driving under the influence"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_2A1D2C19-B7AD-4CCD-B5F3-F5A8B9965688">
           <dmn:text>-</dmn:text>
